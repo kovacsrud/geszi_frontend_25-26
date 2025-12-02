@@ -34,6 +34,20 @@
       "keresztnev": "István",
       "magassag": 176,
       "email": "istvan@suli.hu"
+    },
+    {
+      "id": "a730",
+      "vezeteknev": "Lovász",
+      "keresztnev": "Imre",
+      "magassag": "188",
+      "email": "lovasz@suli.hu"
+    },
+    {
+      "id": "cd85",
+      "vezeteknev": "Lovász",
+      "keresztnev": "Béla",
+      "magassag": "199",
+      "email": "lovaszb@suli.hu"
     }
   ]
 }
