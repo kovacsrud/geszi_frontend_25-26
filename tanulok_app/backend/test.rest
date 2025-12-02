@@ -1,0 +1,25 @@
+GET http://localhost:8000/tanulok
+###
+POST http://localhost:8000/tanulok
+Content-Type: application/json
+
+{
+     "id":5,
+     "vezeteknev":"Majoros",
+     "keresztnev":"István",
+     "magassag":176,
+     "email":"istvan@suli.hu"
+}
+###
+PUT http://localhost:8000/tanulok/4
+Content-Type: application/json
+
+{
+    "id": "4",
+    "vezeteknev": "Szabó",
+    "keresztnev": "Péter",
+    "magassag": 179,
+    "email": "peter@suli.hu"
+}
+###
+DELETE http://localhost:8000/tanulok/4

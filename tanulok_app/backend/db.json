@@ -1,32 +1,39 @@
 {
-    "tanulok":[
-        {
-            "id":1,
-            "vezeteknev":"Nagy",
-            "keresztnev":"Irma",
-            "magassag":168,
-            "email":"irma@suli.hu"
-        },
-        {
-            "id":2,
-            "vezeteknev":"Kósa",
-            "keresztnev":"Ilona",
-            "magassag":156,
-            "email":"ilona@suli.hu"
-        },
-        {
-            "id":3,
-            "vezeteknev":"Kmetykó",
-            "keresztnev":"Ubul",
-            "magassag":186,
-            "email":"ubul@suli.hu"
-        },
-        {
-            "id":4,
-            "vezeteknev":"Szabó",
-            "keresztnev":"Pál",
-            "magassag":179,
-            "email":"pal@suli.hu"
-        }
-    ]
+  "tanulok": [
+    {
+      "id": "1",
+      "vezeteknev": "Nagy",
+      "keresztnev": "Irma",
+      "magassag": 168,
+      "email": "irma@suli.hu"
+    },
+    {
+      "id": "2",
+      "vezeteknev": "Kósa",
+      "keresztnev": "Ilona",
+      "magassag": 156,
+      "email": "ilona@suli.hu"
+    },
+    {
+      "id": "3",
+      "vezeteknev": "Kmetykó",
+      "keresztnev": "Ubul",
+      "magassag": 186,
+      "email": "ubul@suli.hu"
+    },
+    {
+      "id": "4",
+      "vezeteknev": "Szabó",
+      "keresztnev": "Péter",
+      "magassag": 179,
+      "email": "peter@suli.hu"
+    },
+    {
+      "id": 5,
+      "vezeteknev": "Majoros",
+      "keresztnev": "István",
+      "magassag": 176,
+      "email": "istvan@suli.hu"
+    }
+  ]
 }
