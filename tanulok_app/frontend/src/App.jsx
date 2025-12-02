@@ -1,7 +1,6 @@
 import Menu from './components/Menu';
 import Main from './components/Main';
 import Tanulok from './components/Tanulok';
-
 import UjTanulo from './components/UjTanulo';
 
 import {BrowserRouter,Routes,Route,Navigate} from 'react-router-dom';
