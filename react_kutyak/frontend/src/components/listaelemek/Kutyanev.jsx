@@ -7,7 +7,8 @@ function Kutyanev({ kutyanev }) {
          Id:{kutyanev.Id}
         </p>
         <div className="card-actions justify-end">
-         
+         <button className="btn btn-primary">Módosítás</button>
+         <button className="btn btn-primary">Törlés</button>
         </div>
       </div>
     </div>
