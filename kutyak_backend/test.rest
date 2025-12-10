@@ -1,0 +1,14 @@
+GET http://localhost:8000/kutyanevek
+
+###
+GET http://localhost:8000/kutyafajtak
+
+###
+GET http://localhost:8000/kutyak
+###
+POST http://localhost:8000/kutyanevek
+Content-Type:application/json
+
+{
+    "kutyanev":"e"
+}
