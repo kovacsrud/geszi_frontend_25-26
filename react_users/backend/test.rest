@@ -1,0 +1,32 @@
+POST http://localhost:8000/api/user/regisztracio
+Content-Type: application/json
+
+{
+    "username":"user2",
+    "password":"titok_12",
+    "email":"user2@users.hu",
+    "age":21
+}
+###
+POST http://localhost:8000/api/user/belepes
+Content-Type: application/json
+
+{
+    "username":"user1",
+    "password":"titok_12"
+    
+}
+###
+PATCH http://localhost:8000/api/user/adatmodositas
+Content-Type: application/json
+
+{
+    "_id":"693154487e422da5a125be74",
+    "username":"user1",
+    "password":"titok_12",
+    "email":"user1@users.hu",
+    "age":31
+}
+###
+GET http://localhost:8000/api/user/vedett
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MzE1NDQ4N2U0MjJkYTVhMTI1YmU3NCIsImlhdCI6MTc2NDkzNDg4OCwiZXhwIjoxNzY0OTM4NDg4fQ.yPj1IoZ12jHGpn-yH9pp1SR3JIv0a5PTEEx-_ya7pvQ
