@@ -28,7 +28,7 @@ function ImagesBin() {
           const img=URL.createObjectURL(blob);
           tempImages.push(img);
         });
-        
+
         setImages(adatok);
         setBinImages(tempImages);
 
@@ -38,14 +38,14 @@ function ImagesBin() {
     } else {
       navigate('/login')
     }
-  },[])
+  },[refresh])
 
   return (
     <div>
       <h2 className='text-2xl text-sky-800 text-center font-bold'>Feltöltött képek(b)</h2>
       <div className='flex flex-row flex-wrap items-center justify-center'>
         {
-          images.map((image,i)=>(<ImagesBin key={i} image={image} data={binImages[i]} />))
+          images.map((image,i)=>(<ImageBin key={i} image={image} data={binImages[i]} />))
         }
 
       </div>

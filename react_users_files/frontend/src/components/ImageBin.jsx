@@ -2,7 +2,7 @@ import { useContext } from "react"
 import ImageContext from "../context/ImageContext"
 
 function ImageBin({image,data}) {
-  const {imgDeleteBin}=useContext(ImageContext);
+  const {imgBinDelete}=useContext(ImageContext);
   const {imageName,_id}=image;
   return (
     <div>
@@ -18,7 +18,7 @@ function ImageBin({image,data}) {
           
         </p>
         <div className="card-actions justify-end">
-          <button onClick={()=>imgDeleteBin(_id)} className="btn btn-primary">Törlés</button>
+          <button onClick={()=>imgBinDelete(_id)} className="btn btn-primary">Törlés</button>
         </div>
       </div>
     </div>
