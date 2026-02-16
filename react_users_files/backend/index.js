@@ -18,7 +18,7 @@ app.use('/api/files',require('./routes/uploadRoutes'));
 app.use('/api/images',require('./routes/imageRoutes'));
 app.use('/api/imagesbin',require('./routes/imageBinRoutes'));
 
-mongoose.connect("mongodb://localhost:27017/users_2025")
+mongoose.connect("mongodb+srv://geszi2026:Titok_12@kovacsrud.kvgfe5h.mongodb.net/")
 .then(()=>console.log("Kapcsolódva"))
 .catch(err=>console.log(err));
 

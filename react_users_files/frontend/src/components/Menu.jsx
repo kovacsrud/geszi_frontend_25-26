@@ -18,6 +18,18 @@ function Menu() {
             <li>
               <Link to="/vedett">Védett info</Link>
             </li>
+             <li>
+              <Link to="/upload">Kép feltöltés</Link>
+            </li>
+            <li>
+              <Link to="/uploadbin">Kép feltöltés(b)</Link>
+            </li>
+            <li>
+              <Link to="/images">Képtár</Link>
+            </li>
+            <li>
+              <Link to="/imagesbin">Képtár(b)</Link>
+            </li>
             <li>
               <a onClick={()=>{logout();navigate('/')}}>Kilépés</a>
             </li>
