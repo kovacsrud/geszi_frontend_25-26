@@ -6,10 +6,10 @@ function Image({path,image}) {
   const {imgDelete}=useContext(ImageContext);
 
   return (
-    <div className="card bg-base-100 w-96 shadow-sm">
+    <div className="m-10 card bg-base-100 w-96 shadow-sm">
       <figure>
         <img
-          src={`http://localhost:8000/${path}/${imageName}`}
+          src={`http://localhost:8000${path}/${imageName}`}
           alt=""
         />
       </figure>
