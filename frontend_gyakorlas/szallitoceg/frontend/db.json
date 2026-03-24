@@ -1,0 +1,37 @@
+{
+  "szallitmanyok": [
+    {
+      "id": "#1",
+      "nev": "Példa Péter",
+      "email": "peter@peter.com",
+      "telefonszam": "06000000001",
+      "irszam": 3478,
+      "varos": "Lazacfalva",
+      "utca": "Bordó utca",
+      "hazszam": 34,
+      "megjegyzes": "Törékeny csomag!"
+    },
+    {
+      "id": "#2",
+      "nev": "Metódus Mária",
+      "email": "metodus@maria.com",
+      "telefonszam": "06000000002",
+      "irszam": 5672,
+      "varos": "Kannafalva",
+      "utca": "Fűzfa utca",
+      "hazszam": 87,
+      "megjegyzes": "Nincs"
+    },
+    {
+      "id": "#3",
+      "nev": "Objektum Ottó",
+      "email": "objektum@otto.com",
+      "telefonszam": "06000000003",
+      "irszam": 1657,
+      "varos": "Falufalva",
+      "utca": "Tölgyfa utca",
+      "hazszam": 38,
+      "megjegyzes": "Nincs"
+    }
+  ]
+}

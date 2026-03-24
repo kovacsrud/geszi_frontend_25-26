@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcfafa;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: #D2691E;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+label {
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[name="megjegyzes"] {
+    height: 80px;
+}
+
+button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #9c9a9a;
+}

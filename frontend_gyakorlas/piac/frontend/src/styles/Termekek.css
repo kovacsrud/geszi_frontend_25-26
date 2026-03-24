@@ -1,0 +1,42 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.termekek-card {
+  width: 300px;
+  background-color: #D2691E; /* Melegebb narancsos árnyalat a kék helyett */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.termekek-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.termekek-card-body {
+  padding: 20px;
+}
+
+.termekek-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFF5E1; /* Világos bézs a jobb olvashatóságért */
+  margin-bottom: 10px;
+}
+
+.termekek-card-detail {
+  font-size: 16px;
+  color: #FFF5E1; 
+  margin: 5px 0;
+}
+
+.termekek-card-detail:first-child {
+  margin-top: 10px;
+}

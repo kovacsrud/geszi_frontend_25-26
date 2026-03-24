@@ -1,0 +1,43 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .szallitmany-card {
+    width: 300px;
+    background-color: #2563eb; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .szallitmany-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .szallitmany-card-body {
+    padding: 20px;
+  }
+  
+  .szallitmany-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .szallitmany-card-detail {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 5px 0;
+  }
+  
+  .szallitmany-card-detail:first-child {
+    margin-top: 10px;
+  }
+  

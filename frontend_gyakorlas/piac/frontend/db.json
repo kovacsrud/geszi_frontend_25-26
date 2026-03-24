@@ -1,0 +1,44 @@
+{
+  "termekek": [
+    {
+      "elado": "Példa Péter",
+      "email": "peter@pelda.com",
+      "telefonszam": "06000000001",
+      "termekNev": "XY Telefon",
+      "leiras": "Alig használt, karcmentes, 80%-os akkumulátorral",
+      "ar": 50000
+    },
+    {
+      "elado": "Metódus Mária",
+      "email": "maria@metodus.com",
+      "telefonszam": "06000000002",
+      "termekNev": "AB Laptop",
+      "leiras": "Megkímélt állapot, SSD-vel, friss Windows telepítve",
+      "ar": 120000
+    },
+    {
+      "elado": "Objektum Ottó",
+      "email": "otto@objektum.com",
+      "telefonszam": "06000000003",
+      "termekNev": "Okosóra ZT",
+      "leiras": "Egy éves, vízálló, tökéletesen működik",
+      "ar": 25000
+    },
+    {
+      "elado": "Függvény Ferenc",
+      "email": "ferenc@fuggveny.com",
+      "telefonszam": "06000000004",
+      "termekNev": "XYZ Tévékészülék",
+      "leiras": "4K UHD, 55 colos, keveset használt",
+      "ar": 180000
+    },
+    {
+      "elado": "Laravel László",
+      "email": "laszlo@laravel.com",
+      "telefonszam": "06000000005",
+      "termekNev": "Gamer Billentyűzet",
+      "leiras": "RGB világítás, mechanikus kapcsolók, hibátlan állapot",
+      "ar": 25000
+    }
+  ]
+}
