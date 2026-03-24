@@ -9,14 +9,34 @@ function UjJarat() {
     const[jaratTipus,setJaratTipus]=useState("");
     const[elsoAjtos,setElsoAjtos]=useState("");
 
+    const adatkuldes=(adat)=>{
+      fetch('http://localhost:8000/jarat',{
+        method:'POST',
+        headers:{
+          "Content-type":"application/json"
+        },
+        body:JSON.stringify(adat)
+      })
+      .then(res=>res.json())
+      .then(valasz=>{alert(valasz.message);navigate("/")})
+      .catch(err=>alert(err));
+
+    }
+
+    const onSubmit=(e)=>{
+      e.preventDefault();
+      adatkuldes({id,jaratSzam,jaratTipus,elsoAjtos});
+
+    }
+
 
   return (
    <div className='bg-red-100 h-screen'>
     <h1 className="text-2xl text-center p-2 bg-red-100 text-red-800">Új járat</h1>
-    <form >
+    <form onSubmit={onSubmit} >
       <div className='flex flex-col items-center p-5'>
         <label>Adja meg az Id-t</label>
-        <input type='text'  className='input input-bordered m-2'  value={id} onChange={(e)=>{setId(e.target.value)}} />
+        <input type='text'  className='input input-bordered m-2'  value={id} onChange={(e)=>setId(e.target.value)} />
         <label>Adja meg a járatszámot:</label>
         <input type='text'  className='input input-bordered m-2'  value={jaratSzam} onChange={(e)=>setJaratSzam(e.target.value)} />
         <label>A járat típusa:</label>

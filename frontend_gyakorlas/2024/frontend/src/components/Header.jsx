@@ -1,8 +1,8 @@
 
 
-function Header({headerText}) {
+function Header({szoveg}) {
   return (
-    <h1 className="text-3xl text-indigo-200 bg-indigo-800 p-3 font-bold text-center">{headerText}</h1>
+    <h1 className="text-3xl text-center text-indigo-200 bg-indigo-800 font-bold p-5">{szoveg}</h1>
   )
 }
 
