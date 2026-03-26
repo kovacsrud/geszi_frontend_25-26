@@ -1,0 +1,20 @@
+import '../styles/Main.css';
+import Hatter from '../images/hatter.jpg';
+
+function Main() {
+    return (
+        <div>
+            <main className="main" style={{ backgroundImage: `url(${Hatter})` }}>
+                <div className="content">
+                    <h1>Üdvözöljük futárszolgálatunknál!</h1>
+                    <p>
+                        Gyors és kényelmes lehetőséget biztosítunk csomagjai nemzetközi szállítására!
+                        Felejtse el a kényelmetlen csomagpontokat, mi házhoz megyünk csomagjáért!
+                    </p>
+                </div>
+            </main>
+        </div>
+    )
+}
+
+export default Main
