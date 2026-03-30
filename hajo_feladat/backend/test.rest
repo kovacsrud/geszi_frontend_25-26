@@ -1,0 +1,13 @@
+POST http://localhost:8000/hajok
+
+Content-Type: application/json
+
+{
+    "id":6,
+    "nev":"Keszthely",
+    "tipus":"M",
+    "szemelyzetSzama":3
+}
+
+###
+GET http://localhost:8000/hajok

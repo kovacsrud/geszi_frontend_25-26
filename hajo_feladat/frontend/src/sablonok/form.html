@@ -1,0 +1,27 @@
+<div class="max-w-lg mx-auto bg-white p-8 rounded-2xl shadow-2xl border border-blue-100 mt-10">
+  <h2 class="text-2xl font-bold text-blue-900 mb-6 text-center">Új hajó regisztrálása</h2>
+  <form class="space-y-5">
+    <div>
+      <label class="block text-sm font-medium text-blue-900 mb-1">Egyedi azonosító (ID)</label>
+      <input type="number" class="w-full px-4 py-2 border border-blue-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-blue-900 mb-1">Hajó megnevezése</label>
+      <input type="text" class="w-full px-4 py-2 border border-blue-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-blue-900 mb-1">Hajó típusa</label>
+      <select class="w-full px-4 py-2 border border-blue-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white">
+        <option value="M">Motoros hajó</option>
+        <option value="V">Vitorlás</option>
+      </select>
+    </div>
+    <div>
+      <label class="block text-sm font-medium text-blue-900 mb-1">Személyzet létszáma (fő)</label>
+      <input type="number" class="w-full px-4 py-2 border border-blue-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+    </div>
+    <button type="submit" class="w-full bg-blue-700 text-white py-3 rounded-md font-bold text-lg hover:bg-blue-900 shadow-lg transform active:scale-95 transition-all">
+      Hajó mentése
+    </button>
+  </form>
+</div>
