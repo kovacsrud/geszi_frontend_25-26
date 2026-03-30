@@ -1,0 +1,20 @@
+import '../styles/Main.css'
+import Hatter from '../images/hatter.avif'
+
+function Main() {
+    return (
+        <div>
+            <main className="main" style={{ backgroundImage: `url(${Hatter})` }}>
+                <div className="content">
+                    <h1>Üdvözöljük kedves látogató!</h1>
+                    <p>
+                        Weboldalunk gyors és egyszerű megoldást kínál használt termékek eladására és vételére!
+                        Nálunk mindent megtalál, akárcsak egy igazi bolhapiacon!
+                    </p>
+                </div>
+            </main>
+        </div>
+    )
+}
+
+export default Main

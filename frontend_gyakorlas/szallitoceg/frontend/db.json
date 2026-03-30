@@ -32,6 +32,17 @@
       "utca": "Tölgyfa utca",
       "hazszam": 38,
       "megjegyzes": "Nincs"
+    },
+    {
+      "id": "6",
+      "nev": "teszt",
+      "email": "teszt@teszt.hu",
+      "telefonszam": "123456",
+      "irszam": "4567",
+      "varos": "teszt",
+      "utca": "teszt",
+      "hazszam": "8",
+      "megjegyzes": "eewe"
     }
   ]
 }
