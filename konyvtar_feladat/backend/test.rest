@@ -1,0 +1,13 @@
+POST http://localhost:8000/konyv
+Content-Type: application/json
+
+{
+  "id": 3,
+  "cim": "1986",
+  "szerzo": "George Well",
+  "mufaj": "F",
+  "kolcsonozheto": 1
+}
+
+###
+GET http://localhost:8000/konyvek
